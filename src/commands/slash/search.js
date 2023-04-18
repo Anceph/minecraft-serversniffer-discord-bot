@@ -33,7 +33,7 @@ module.exports = {
                 .addFields(
                     { name: 'IP', value: `${i.ip}`, inline: true },
                     { name: 'Version', value: `${i.version}`, inline: true},
-                    { name: `${i.playerCount} Player(s) Online`, value: `**${i.playerList[1]}** (_${i.playerList[0]}_)`},
+                    { name: `${i.playerCount} Player(s) Online`, value: `**${i.playerList[1]}** (_${i.playerList[0]}_)`}, //it shows only the playerlist of the first server for all of the servers??? am i stupid?
                     { name: 'MOTD', value: `${i.motd}` },
                 )
             pages.push(embed)
