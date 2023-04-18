@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.6.0",
+    "discord.js": "^14.8.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.2",
+    "lodash.uniqwith": "^4.5.0",
+    "minecraft-server-util": "^5.4.2",
+    "moment": "^2.29.4",
+    "node-mcstatus": "^1.0.2",
+    "nodemon": "^2.0.22",
+    "pacman": "^0.15.0"
+  }
+}
