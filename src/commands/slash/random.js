@@ -16,11 +16,6 @@ module.exports = {
 
         await mcstatus.statusJava(server.ip, 25565)
             .then(async (result) => {
-		// THIS SHIT DOENS'T WORK
-                // for (let i = 0; i < result.players.list.length; i++) {
-                //     await playerLists.push(result.players.list[i].uuid, result.players.list[i].name_clean)
-                // }
-
                 const embed = new EmbedBuilder()
                     .setColor("#2f963b")
                     .setTitle("Random Server")
